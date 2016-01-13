@@ -25,3 +25,18 @@
 
 提交中方有乱码问题
 修改dir目录下的a.txt的格式为utf-8 无bom文件
+
+今天我们来学习如何使用gitshell将线上的版本仓库下载到本地。
+我们为什么要把线上的仓库下载到本地，通常情况下是我们想要参与别人的项目。
+github上面有一个项目：https://github.com/hongyangAndroid/okhttp-utils，点击访问它。
+现在我们想要参与这个项目，需要进行以下步骤：
+1.访问上面的链接，点击fork按钮，
+2.现在okhttp-utils项目已经添加到你的线上版本仓库中了，我们要下载它。
+打开gitshell，输入 mkdir okhttp
+3.cd okhttp
+4.git init
+5.git remote add upstream https://github.com/hongyangAndroid/okhttp-utils
+6.git fetch upstream
+7.git merge upstream/master
+这时就把fork到的库下载到了本地了
+
