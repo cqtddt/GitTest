@@ -80,3 +80,10 @@ git checkout <分支名>
 2.git log --graph( 会出现一个commit的图) 按q退出
 3.git show-branch 可以看出分支上的递交状况
 4.git branch -va  查看分支
+
+合并分支到主分支
+1.git checkout master
+2.git merge testbranch
+3.git push origin master
+经过这三步就把分支的与master不同的文件合并到一起了
+
