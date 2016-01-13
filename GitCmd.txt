@@ -1,0 +1,13 @@
+# GitTest
+这个主要是熟悉Git命令，用来测试Git的具体操作
+
+从GitHub上下载库代码
+1.mkdir GitTest  (注意GitTest与Github上的库的名字要一样)
+2.git init
+3.git remote add origin https://github.com/cqtddt/GitTest.git
+4.git git pull origin master
+
+提交本地的代码到Github库上
+1.git add GitCmd.txt  (将文件添加到上传队列)
+2.git commit -m 'test commit cmd'
+3.git push origin master
