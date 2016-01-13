@@ -26,6 +26,8 @@
 Ìá½»ÖĞ·½ÓĞÂÒÂëÎÊÌâ
 ĞŞ¸ÄdirÄ¿Â¼ÏÂµÄa.txtµÄ¸ñÊ½Îªutf-8 ÎŞbomÎÄ¼ş
 
+
+ÏßÉÏµÄ²Ö¿âÏÂÔØµ½±¾µØ
 ½ñÌìÎÒÃÇÀ´Ñ§Ï°ÈçºÎÊ¹ÓÃgitshell½«ÏßÉÏµÄ°æ±¾²Ö¿âÏÂÔØµ½±¾µØ¡£
 ÎÒÃÇÎªÊ²Ã´Òª°ÑÏßÉÏµÄ²Ö¿âÏÂÔØµ½±¾µØ£¬Í¨³£Çé¿öÏÂÊÇÎÒÃÇÏëÒª²ÎÓë±ğÈËµÄÏîÄ¿¡£
 githubÉÏÃæÓĞÒ»¸öÏîÄ¿£ºhttps://github.com/hongyangAndroid/okhttp-utils£¬µã»÷·ÃÎÊËü¡£
@@ -40,3 +42,11 @@ githubÉÏÃæÓĞÒ»¸öÏîÄ¿£ºhttps://github.com/hongyangAndroid/okhttp-utils£¬µã»÷·ÃÎÊË
 7.git merge upstream/master
 ÕâÊ±¾Í°Ñforkµ½µÄ¿âÏÂÔØµ½ÁË±¾µØÁË
 
+½¨Á¢°æ±¾·ÖÖ§
+1.cd GitTest
+2.git branch testbranch
+3.git checkout testbranch (½«testbranch·ÖÖ§ÉèÖÃÎªµ±Ç°¹¤×÷·ÖÖ§)
+4.git add ./
+5.git commit -m '´´½¨ĞÂµÄ·ÖÖ§--testbranch'
+6.git remote add origin1 https://github.com/cqtddt/GitTest.git
+7.git push -u origin1 testbranch(½«ÎÄ¼şÉÏ´«µ½·ÖÖ§)
