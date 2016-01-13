@@ -5,9 +5,23 @@
 1.mkdir GitTest  (注意GitTest与Github上的库的名字要一样)
 2.git init
 3.git remote add origin https://github.com/cqtddt/GitTest.git
-4.git git pull origin master
+4.git pull origin master
 
 提交本地的代码到Github库上
 1.git add GitCmd.txt  (将文件添加到上传队列)
 2.git commit -m 'test commit cmd'
 3.git push origin master
+
+修改文件提交到Github库上
+1.修改README.md文件
+2.git add README.md  (将文件添加到上传队列)
+3.git commit -m 'test commit the modify of readme'
+4.git push origin master
+
+提交文件夹及下面的文件到Github上
+1.git add Dir
+2.git commit -m 'test commit the all file of dir'
+3.git push origin master
+
+提交中方有乱码问题
+修改dir目录下的a.txt的格式为utf-8 无bom文件
